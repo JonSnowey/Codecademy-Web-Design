@@ -159,6 +159,18 @@ li{
   
 }
 
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover 
+{
+     color:#00A0C6; 
+     text-decoration:none; 
+     cursor:pointer;  
+}
+
 
 .content {
     background-color: transparent;
@@ -212,12 +224,13 @@ img {
 
 </style>
 
+
 <html>
   <link rel="stylesheet" href="styles.css">
   <header>
     <ul>
-      <li>Colors</li>
-      <li>Fonts</li>
+      <li><a href="#main1">Colors</a></li>
+      <li><a href="#main2">Fonts</a></li>
     </ul>
 
     </header>
