@@ -14,10 +14,9 @@ main {
   justify-items: center;
   justify-content: center;
   align-items: stretch;
-  eight: 1600px;
   align-content: center;
-
-
+  grid-auto-row: 500px;
+  grid-auto-flow:column;
 }
 
 h2 {
@@ -36,16 +35,14 @@ img {
 }
 
 .recipe {
-  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.5);
   width: 200px;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.5);
 }
 
 .a {
-  
 }
 
 .c {
-  
 }
 
 .time {
@@ -96,7 +93,6 @@ footer {
 }
 
 
-<!DOCTYPE html>
 <html>
 
   <head>
@@ -166,6 +162,23 @@ footer {
           <p class="description">
             This low-calorie, vitamin-packed parfait is great for breakfast, dessert, or post-workout!</p>
         </div>
+        
+                <div class="recipe e">
+          <img src="https://content.codecademy.com/courses/learn-css-grid/lesson-ii/image-3.png" />
+          <h2>SWEET CHURROS</h2>
+          <img src="https://content.codecademy.com/courses/learn-css-grid/lesson-ii/time.svg" class="time" />
+          <p class="mins">90 mins</p>
+          <p class="description">
+            Making this classic summer treat at home will remind you of a childhood spent in the park.</p>
+        </div>
+        <div class="recipe f">
+          <img src="https://content.codecademy.com/courses/learn-css-grid/lesson-ii/image-6.png" />
+          <h2>BERRY PARFAIT</h2>
+          <img src="https://content.codecademy.com/courses/learn-css-grid/lesson-ii/time.svg" class="time" />
+          <p class="mins">10 mins</p>
+          <p class="description">
+            This low-calorie, vitamin-packed parfait is great for breakfast, dessert, or post-workout!</p>
+        </div>
       </main>
 
       <footer>
@@ -176,7 +189,6 @@ footer {
   </body>
 
 </html>
-
 
 /////We can use justify-content to position the entire grid along the row axis.
 
