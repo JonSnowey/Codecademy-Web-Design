@@ -11,7 +11,7 @@ a {
   color: MintCream;
   transition-property: background-color;
   //transition-duration: 2s;//
-  transition-duration: 200ms;
+  transition-duration: 750ms;
 }
 
 a:hover {
