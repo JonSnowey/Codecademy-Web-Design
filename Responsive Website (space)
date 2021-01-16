@@ -8,7 +8,6 @@ html {
   width: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-  
 }
 body {
   margin: 0 auto;
@@ -16,7 +15,7 @@ body {
   width: 100%;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
-  color:#333333 ;
+  color: #999999;
 }
 .clearfix::after {
   content: " ";
@@ -70,7 +69,6 @@ a {
   font-family: 'Barlow', Helvetica, sans-serif;
   font-size: 16px;
   color: #0D1C32;
-
 }
 ul {
   padding: 0;
@@ -150,7 +148,6 @@ img {
 .footer {
   background-color: #ECF3FF;
   padding: 30px;
-
 }
 .footer-navigation {
   margin: 0 auto;
@@ -199,11 +196,11 @@ button:hover {
   opacity: 0.75;
 }
 .button-primary {
-  background-color: #60B3BD;
+  background-color: #92AE4A;
   color: #FFFFFF;
 }
 .button-secondary {
-  background-color: #627FB0;
+  background-color: #92AE4A;
   color: #FFFFFF;
 }
 input {
@@ -241,10 +238,10 @@ input {
   background-color: #F5F9FF;
 }
 .main-content-benefits h2 {
-  color: #65A3C7;
+  color: #BD6152;
 }
 .main-content-info {
-  background-color: #627FB0;
+  background-color: #BD6152;
   text-align: center;
 }
 .main-content-info-left {
@@ -263,7 +260,7 @@ input {
   text-align: center;
 }
 .main-content-cta {
-  background-color: #65A3C7;
+  background-color: #BD6152;
   color: #FFFFFF;
   padding: 80px 0;
 }
@@ -343,6 +340,7 @@ input {
     margin-right: 2.5%;
   }
 }
+
 
 </styles>
 <html lang="en">
