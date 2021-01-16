@@ -1,0 +1,41 @@
+<style>
+.block {
+  height: 100px;
+  width: 400px;
+  display: block;
+}
+
+#container{
+  background-color: #F4E8C1;
+ 	position: absolute;
+  width: 100%;
+}
+
+#teal {
+  background-color: #A8D0DB;
+  padding: 100px;
+
+}
+
+#purple {
+  background-color: #414073;
+  padding: 100px;
+}
+</style>
+<html>
+
+<head>
+  <title>Specificity</title>
+  <link href="style.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+  <div id="container">
+    <div id="teal" class="block">
+    </div>
+    <div id="purple" class="block">
+    </div>
+  </div>
+</body>
+
+</html>
