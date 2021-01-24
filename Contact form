@@ -1,4 +1,3 @@
-<style>
 * {
   box-sizing: border-box;
 }
@@ -194,7 +193,7 @@ small {
 
 /* Site Navigation */
 .site-header {
-  background-color: #EBEBEB;
+  background-color: #34474F;
   padding: 30px 15px 0;
 }
 
@@ -236,7 +235,7 @@ small {
 }
 
 .site-nav-link {
-  color: #959595;
+  color: #FFFFFF;
   text-decoration: none;
 }
 
@@ -438,7 +437,7 @@ textarea {
 }
 
 .site-main-background {
-  background-color: #EBEBEB;
+  background-color: #34474F;
   height: 600px;
   display: block;
   position: absolute;
@@ -455,7 +454,7 @@ textarea {
 
 .site-main-header h1,
 .site-main-header p {
-  color: #2A2A2A;
+  color: #FFFFFF;
 }
 
 .section-header {
