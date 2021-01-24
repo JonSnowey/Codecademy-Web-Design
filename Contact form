@@ -1,3 +1,4 @@
+<style>
 * {
   box-sizing: border-box;
 }
@@ -309,7 +310,7 @@ small {
 }
 
 .alert-error {
-  background-color: #CCCCCC;
+  background-color: #FC472E;
 }
 
 .alert img {
@@ -344,11 +345,11 @@ small {
 }
 
 .button-primary {
-  background-color: #959595;
+  background-color: #00CF63;
 }
 
 .button-secondary {
-  background-color: #2A2A2A;
+  background-color: #FFAA00;
 }
 
 .button-full {
@@ -417,7 +418,7 @@ input:active,
 input:focus,
 textarea:active,
 textarea:focus {
-  border: 1px solid #CCCCCC;
+  border: 1px solid #42A5F5;
   outline: none;
 }
 
@@ -426,7 +427,7 @@ textarea {
 }
 
 .input-error {
-  border-color: #F2F3F5;
+  border-color: #FC472E;
 }
 
 /* 6. Page Styles
@@ -469,7 +470,7 @@ textarea {
 }
 </style>
 
- <html lang="en">
+   <html lang="en">
   <head>
     <title>Codecademy | Color For UI</title>
 
