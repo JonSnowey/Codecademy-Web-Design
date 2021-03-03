@@ -1,0 +1,41 @@
+<style>
+.image-container {
+  overflow: hidden;
+  
+}
+
+.image-container img {
+  max-width: 100%;
+  height:auto;
+  display:block;
+  
+}
+
+
+.images {
+  margin-bottom: 20%;
+  
+}
+
+.images .image-container {
+  display: inline-block;
+  width: 50%;
+  
+}
+
+</style>
+<html>
+
+<div class="image-container">
+        <img src="garden.jpg" />
+      </div>
+      
+<div class="images">
+      <div class="image-container">
+        <img src="dog.jpg" />
+      </div><!--
+      Adding comment to ensure no whitespace between inline-block div elements from HTML file.
+      --><div class="image-container">
+        <img src="cat.png" />
+      </div>
+    </div>
