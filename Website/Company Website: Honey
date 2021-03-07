@@ -1,4 +1,4 @@
-honeyholder{
+.honeyholder{
   width:100%;
   height: 500px;
   background-color:transparent;
@@ -19,17 +19,17 @@ honeyholder{
    padding:20px;
    margin:20px;
   transition: top ease 0.5s;
-  opacity:0.8;
+  opacity:95%;
   margin-top:140px;
 }
 
 .honeybox:hover{
-  opacity:1;
+  opacity:100%;
   top: -10px;
 }
 
 body{
-  background-image:url("https://fsa.zobj.net/crop.php?r=RtcYT7AGeDPxsFGhAFglfMfdJIWllfjrJvUes9rAjVetf4Q7Bs0OJZ1O1E7LjdWQEwWwoPQSspeM1XNBdFKuYtMciTgXxnhjIpAiSFXOC2Tqv8nz60nFBAd0SnXqbKbouMnQJWaosttJHrur");
+  background-image:url("https://images-na.ssl-images-amazon.com/images/I/61JdcRpLkzL.jpg");
 background-repeat:repeat;
  background-attachment: fixed;
  background-size:100%;
@@ -92,9 +92,9 @@ background-repeat:repeat;
 .topnav {
   display: flex;
   width:100%;
-  height: 70px; 
-  background-color:transparent;
-  margin-top:0px;
+  height: 150px; 
+  background-color:#FFDE6A;
+  margin-top:-10px;
   text-align:left;
 }
 
@@ -147,12 +147,12 @@ li:hover{
 
 .tophero{
   width:100%;
-  height: 200px;
-  background-color:transparent;
+  height: 350px;
+  background-color:#FFDE6A;
   background-repeat:no-repeat;
   background-size:100%;
   text-align:center;
-  margin-top:150px;
+  margin-top:-65px;
 
 
 }
@@ -227,7 +227,7 @@ li:hover{
 
 
 .title-word{
-  color:white;
+  color:black;
   font-size:40px;
   font-weight:bold;
   margin-left:150px;
@@ -272,7 +272,6 @@ li:hover{
     display:none;
   }
 }
-</style>
 
 <head>
   <link rel="stylesheet" href="styles.css">
@@ -296,15 +295,17 @@ li:hover{
       <button class="honeybtn"> SHOP</button>
     </div>
     <div class="section1">
+
       </div>
-  
+
+      <p style="font-size:40px;font-weight:bold;text-align:center;color:black;margin-top:150px;background-color:white;width:700px;margin-left:290px;">We supply our customers with a selection of four honies.</p>
     <div class="emptydiv">
       </div>
 
      
         <div class="hero2">
   </div>
-
+<p style="font-size:40px;font-weight:bold;text-align:center;color:black;margin-bottom:-20px;background-color:white;width:200px;margin-left:190px;">Honeys</p>
     
   <div class="honeyholder">
     <div class="honeybox">
@@ -320,9 +321,8 @@ li:hover{
          
 
 
-<div class="hero">
-  </div>
-    <p style="font-size:40px;font-weight:bold;text-align:center;color:black;margin-top:-50px;">The Team</p>
+
+    <p style="font-size:40px;font-weight:bold;text-align:center;color:black;margin-top:90px;background-color:white;width:200px;margin-left:190px;">The Team</p>
 <div class="holder">
 <div class="honeybox">
           </div>
