@@ -1,0 +1,65 @@
+<style>
+.headline{
+min-height: 80vh;
+display:grid;
+align-content:center;
+//justify-content:center;
+//text-align:center;
+padding: 3rem;
+
+.group{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap: 1rem;
+
+body {
+  min-height: 100vh;
+  background: hsl(212, 22%, 28%);
+  color: hsl(212, 22%, 90%);
+  font-family: system-ui, sans-serif;
+  font-size: 1.25rem;
+}
+
+.more-content {
+  text-align: center;
+  padding: 3rem;
+}
+
+.flex {
+  display: flex;
+  gap: 1rem;
+}
+
+.button {
+  text-decoration: none;
+  color: hsl(212, 22%, 28%);
+  font-weight: 700;
+  padding: 0.5em 1.25em;
+  border-radius: 0.125em;
+  background: hsl(212, 22%, 85%);
+}
+
+.button--primary {
+  background: hsl(50, 100%, 50%);
+}
+
+.btn:hover,
+.btn:focus {
+  background: hsl(212, 22%, 100%);
+}
+
+</style>
+
+<header class = "headline">
+<h1 class = "fs-xl"> An example </h1>
+<p> Lorem ipsum...</p>
+<div class = "group">
+<a href = "#" class = "button"> More info </a>
+<a href = "#" class = "button"> Buy now </a>
+</div>
+</header>
+
+<section class="more-content">
+  more content here...
+</section>
